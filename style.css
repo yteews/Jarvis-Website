@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+                                          /*---------------- navigation start---------------------*/
+.nav{
+    display: flex;
+    /* background-color: #f4f7fa; */
+    justify-content: space-evenly;
+    height: 82px;
+    box-shadow: 1px 2px 7px;
+
+}
+.pho{
+    display: flex;
+    align-items: center;
+
+}
+.navbar{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+    font-size: 16px;
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+
+}
+.btn input{
+    height: 52px;
+    width: 172px;
+    background-color: #0d6efd;
+    border-radius: 32px;
+    font-size: 16px;
+}
+
+/* navigetion end */
+                                            /* -----------------section start---------------- */
+.jv-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 34px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    padding: 50px;
+
+}
+.text-color{
+    color: #2b70c5;
+    ;
+    font-size: 65px;
+
+}
+.info h1{
+    font-size: 65px;
+    text-align: center;
+}
+.para{
+   text-align: center;
+   font-size: 20px;
+}
+.btn1{
+    height: 72px;
+    width: 238px;
+    border-radius: 300px;
+    margin: 43px;
+    border: 0px;
+    transition: 0.5s;
+    font-size: 20px;
+
+}
+.btn1:hover{
+    background-color:  #0d6efd;
+}
+                                    /* ------------ animation start ------------- */
+
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+
+}
+.animation img{
+    width: 1453px;
+}
