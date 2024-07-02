@@ -62,7 +62,7 @@
 }
 .text-color{
     color: #2b70c5;
-    ;
+    
     font-size: 65px;
 
 }
@@ -129,8 +129,7 @@
     display: flex;
     flex-direction: column;
     gap: 57px;
-    position: relative;
-    top: 254px;
+    margin: 256px;
 }
 .container1{
     display: flex;
@@ -190,5 +189,58 @@
 .mountain{
     display: flex;
     height: 646px;
+
+}
+/* <!-----------------------------------------------container2 start--------------------------------------------------> */
+.jv-explain{
+    background: linear-gradient(0deg, rgba(43, 112, 197, 0.04) 0%, rgba(43, 112, 197, 0.04) 100%), #fff;
+    height: 589px;
+}
+.eg{
+
+}
+.text-color{
+    font-size: 52px;
+
+
+}
+.jv-txt{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 215px;
+    gap: 32px;
+
+}
+.heading{
+
+}
+.jv-paragraph{
+    max-width: 1092px;
+
+}
+.heading h1{
+    font-size: 51px;
+    margin: 80px 0px 10px 0px;
+
+}
+.jv-paragraph p{
+
+}
+.count{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 140px;
+}
+
+
+.jv-count{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.count1{
+
+}
+.jv-para p{
 
 }
