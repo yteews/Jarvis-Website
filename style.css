@@ -10,7 +10,7 @@
                                           /*---------------- navigation start---------------------*/
 .nav{
     display: flex;
-    /* background-color: #f4f7fa; */
+   
     justify-content: space-evenly;
     height: 82px;
     box-shadow: 1px 2px 7px;
@@ -82,6 +82,8 @@
     border: 0px;
     transition: 0.5s;
     font-size: 20px;
+    background-color: white;
+    border: 1px solid gray
 
 }
 .btn1:hover{
@@ -93,9 +95,100 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 260px;
+    height:344px;
+    position: relative;
+    bottom: 47px;
 
 }
 .animation img{
-    width: 1453px;
+    width: 1423px;
+}
+                    /* -------------------------------container---------------------------------------- */
+.jv-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 19px;
+   
+}
+.txt{
+
+}
+.txt-color{
+    color: #2b70c5;
+}
+.txt h1{
+    font-size: 48px;
+}
+.txt1{
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    position: relative;
+    top: 254px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.card{
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+    height: 189px;
+    width: 471px;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #cfcfff;
+
+}
+.card1{
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+    height: 189px;
+    width: 471px;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #cfcfff;
+
+}
+.card2{
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+    height: 189px;
+    width: 471px;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #cfcfff;
+
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.container2{
+
+}
+.mountain{
+    display: flex;
+    height: 646px;
+
 }

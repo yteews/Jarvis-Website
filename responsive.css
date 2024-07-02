@@ -1,16 +1,33 @@
 @media only screen  and  (max-width:350px){
     /* ----------------nav start-------------- */
     .nav{
-        width: 1068px;
+       
+        height: 187px;
+        width: 1024px;
+       
 
 
     }
     .pho{
 
     }
+    .pho img{
+        height: 116px;
+        position: relative;
+        right: 173px;
+
+    }
     .navbar{
 
-    }  
+    } 
+    .navbar li{
+        display: none;
+
+    } 
+    .btn input{
+        display: none;
+
+    }
 
     /* ---------------------section --------------------- */
     .jv-info{
@@ -24,6 +41,12 @@
     .info p{
         font-size: 54px;
         text-align: center;
+    }
+    .h1{
+        
+    }
+    .info h1 span{
+
     }
     .para{
 
