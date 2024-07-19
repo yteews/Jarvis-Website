@@ -41,7 +41,7 @@
     font-size: 16px;
 }
 
-/* navigetion end */
+/* navigation end */
                                             /* -----------------section start---------------- */
 .jv-info{
     display: flex;
@@ -193,7 +193,7 @@
 }
 /* <!-----------------------------------------------container2 start--------------------------------------------------> */
 .jv-explain{
-    background: linear-gradient(0deg, rgba(43, 112, 197, 0.04) 0%, rgba(43, 112, 197, 0.04) 100%), #fff;
+    /* background: linear-gradient(0deg, rgba(43, 112, 197, 0.04) 0%, rgba(43, 112, 197, 0.04) 100%), #fff; */
     height: 589px;
 }
 .eg{
@@ -243,4 +243,153 @@
 }
 .jv-para p{
 
+}
+/* <!-- ------------------------------------------------container3 end------------------------------------------------ --> */
+.jv-search{
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+.jv-txt h1{
+    display: flex;
+    justify-content: center;
+
+}
+.text-color{
+
+}
+.cardss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardss1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+.cardss2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardss3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.B img{
+    transition: 0.5s;
+    color: #0d6efd;
+    height: 218px;
+}
+.B img:hover{
+    color: #2b70c5;
+    transform: scale(1.2);
+} 
+
+
+.RA img{
+    transition: 0.5s;
+    
+
+}
+.RA img:hover{
+    transform: scale(1.2);
+    color: #0d6efd;
+}
+.WMF img{
+    transition: 0.5s;
+    color: #0d6efd;
+
+}
+.WMF img:hover{
+    transform: scale(1.2);
+    color: #0d6efd;
+}
+ .TD{
+
+ }
+
+.TD img{
+    transition: 0.5s;
+}
+.TD img:hover{
+    transform: scale(1.2);
+}
+.robo img{
+    transition: 0.5s;
+    color: #0d6efd;
+
+}
+.robo img:hover{
+    transform: scale(1.3);
+    color: #0d6efd;
+}
+.FH img{
+    transition: 0.5s;
+    color: #0d6efd;
+
+
+}
+.FH img:hover{
+    transform: scale(1.2);
+}
+/* .bb{
+    position: relative;
+    top: 231px;
+}
+.bb:hover{
+
+} */
+    
+
+/* .rab{
+    position: relative;
+    top: 313px;
+    left: 32px;
+
+}
+.wmfb{
+    position: relative;
+    top: 302px;
+    left: 31px;
+
+}
+.tdb{
+    position: relative;
+    top: 220px;
+    left: 30px;
+
+}
+.robob{
+    position: relative;
+    top: 243px;
+    left: 31px;
+
+}
+.fhb{
+    position: relative;
+    top: 283px;
+    left: 31px;
+
+} */
+
+/*----------------------------------------------------------- partner------------------------------ */
+.par{
+
+}
+.partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px; 
 }
